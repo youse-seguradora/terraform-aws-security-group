@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "us-east-2"
-  profile = cicd
+  profile = "cicd"
 }
 
 data "aws_vpc" "default" {
