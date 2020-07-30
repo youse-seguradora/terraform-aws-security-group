@@ -12,7 +12,6 @@ commands:
             sudo curl -o /bin/semtag https://raw.githubusercontent.com/pnikosis/semtag/v0.1.0/semtag
             sudo chmod +x /bin/semtag
             semtag --version
-
 jobs:
   validate:
     docker:
@@ -79,7 +78,6 @@ jobs:
               semtag getlast
               semtag final -s patch
             fi
-
 workflows:
   version: 2
   build:
