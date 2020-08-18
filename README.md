@@ -161,14 +161,14 @@ No issue is creating limit on this module.
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.6 |
-| aws | ~> 2.42 |
+| terraform | ~> 0.12.9 |
+| aws | ~> 3.0  |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | ~> 2.42 |
+| aws | ~> 3.0  |
 
 ## Inputs
 
