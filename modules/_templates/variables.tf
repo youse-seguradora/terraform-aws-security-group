@@ -381,11 +381,6 @@ variable "auto_number_of_computed_ingress_with_self" {
   default     = 0
 }
 
-variable "auto_number_of_computed_ingress_with_self" {
-  description = "Number of computed ingress rules to create where 'self' is defined"
-  type        = number
-  default     = 0
-}
 
 ##################################
 # Auto engress rules
@@ -410,12 +405,6 @@ variable "auto_computed_engress_with_self" {
 
 variable "auto_number_of_computed_engress_rules" {
   description = "Number of computed engress rules to create by name"
-  type        = number
-  default     = 0
-}
-
-variable "auto_number_of_computed_engress_with_self" {
-  description = "Number of computed engress rules to create where 'self' is defined"
   type        = number
   default     = 0
 }
