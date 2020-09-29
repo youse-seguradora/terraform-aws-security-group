@@ -381,36 +381,48 @@ variable "auto_number_of_computed_ingress_with_self" {
   default     = 0
 }
 
+variable "auto_ingress_with_self" {
+  description = "List of ingress rules to create where 'self' is defined"
+  type        = list(map(string))
+  default     = []
+}
+
 
 ##################################
 # Auto engress rules
 ##################################
-variable "auto_engress_rules" {
+variable "auto_egress_rules" {
   description = "List of engress rules to create by name"
   type        = list(string)
   default     = []
 }
 
-variable "auto_computed_engress_rules" {
+variable "auto_computed_egress_rules" {
   description = "List of computed engress rules to create by name"
   type        = list(string)
   default     = []
 }
 
-variable "auto_computed_engress_with_self" {
+variable "auto_computed_egress_with_self" {
   description = "List of computed engress rules to create where 'self' is defined"
   type        = list(map(string))
   default     = []
 }
 
-variable "auto_number_of_computed_engress_rules" {
+variable "auto_number_of_computed_egress_rules" {
   description = "Number of computed engress rules to create by name"
   type        = number
   default     = 0
 }
 
-variable "auto_number_of_computed_engress_with_self" {
+variable "auto_number_of_computed_egress_with_self" {
   description = "Number of computed engress rules to create where 'self' is defined"
   type        = number
   default     = 0
+}
+
+variable "auto_egress_with_self" {
+  description = "List of egress rules to create where 'self' is defined"
+  type        = list(map(string))
+  default     = []
 }
