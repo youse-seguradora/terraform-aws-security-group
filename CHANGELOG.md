@@ -7,6 +7,56 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.16.0"></a>
+## [v3.16.0] - 2020-08-20
+
+- chore: Fixed formatting
+- feat: Allow custom Name tag for security group ([#187](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/187))
+
+
+<a name="v3.15.0"></a>
+## [v3.15.0] - 2020-08-13
+
+- feat: Add JMX and Node exporter TCP ports for Kafka ([#186](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/186))
+
+
+<a name="v3.14.0"></a>
+## [v3.14.0] - 2020-08-13
+
+- feat: aws-provider version bump to >= 2.42, < 4.0 ([#184](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/184))
+
+
+<a name="v3.13.0"></a>
+## [v3.13.0] - 2020-07-20
+
+- feat: Add support for Solr ([#181](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/181))
+
+
+<a name="v3.12.0"></a>
+## [v3.12.0] - 2020-07-03
+
+- feat: Added optional revoke_rules_on_delete functionality (required for EMR) ([#179](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/179))
+
+
+<a name="v3.11.0"></a>
+## [v3.11.0] - 2020-06-24
+
+- feat: Updated version requirements to support Terraform 0.13 ([#178](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/178))
+
+
+<a name="v3.10.0"></a>
+## [v3.10.0] - 2020-05-13
+
+- fix: Fixed MinIO rules formatting
+- feat: Adding support for MinIO ([#174](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/174))
+
+
+<a name="v3.9.0"></a>
+## [v3.9.0] - 2020-05-11
+
+- feat: Adding support for prometheus and alertmanager ([#173](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/173))
+
+
 <a name="v3.8.0"></a>
 ## [v3.8.0] - 2020-04-20
 
@@ -408,7 +458,15 @@ All notable changes to this project will be documented in this file.
 - Initial commit
 
 
-[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.8.0...HEAD
+[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.16.0...HEAD
+[v3.16.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.15.0...v3.16.0
+[v3.15.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.14.0...v3.15.0
+[v3.14.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.13.0...v3.14.0
+[v3.13.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.12.0...v3.13.0
+[v3.12.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.11.0...v3.12.0
+[v3.11.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.10.0...v3.11.0
+[v3.10.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.9.0...v3.10.0
+[v3.9.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.8.0...v3.9.0
 [v3.8.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.7.0...v3.8.0
 [v3.7.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.6.0...v3.7.0
 [v3.6.0]: https://github.com/terraform-aws-modules/terraform-aws-security-group/compare/v3.5.0...v3.6.0
