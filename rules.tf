@@ -63,6 +63,8 @@ variable "rules" {
     # HTTP
     http-80-tcp   = [80, 80, "tcp", "HTTP"]
     http-8080-tcp = [8080, 8080, "tcp", "HTTP"]
+    # HTTPS Looker
+    http-19999-tcp = [19999, 19999, "tcp", "HTTP"]
     # HTTPS
     https-443-tcp  = [443, 443, "tcp", "HTTPS"]
     https-8443-tcp = [8443, 8443, "tcp", "HTTPS"]
