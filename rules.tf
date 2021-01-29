@@ -66,6 +66,8 @@ variable "rules" {
     # HTTPS
     https-443-tcp  = [443, 443, "tcp", "HTTPS"]
     https-8443-tcp = [8443, 8443, "tcp", "HTTPS"]
+    # HTTPS - Looker
+    https-19999-tcp = [19999, 19999, "tcp", "HTTPS"]
     # IPSEC
     ipsec-500-udp  = [500, 500, "udp", "IPSEC ISAKMP"]
     ipsec-4500-udp = [4500, 4500, "udp", "IPSEC NAT-T"]
