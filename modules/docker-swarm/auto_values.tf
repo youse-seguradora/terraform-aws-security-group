@@ -6,7 +6,7 @@
 variable "auto_ingress_rules" {
   description = "List of ingress rules to add automatically"
   type        = list(string)
-  default     = ["alertmanager-9093-tcp", "alertmanager-9094-tcp"]
+  default     = ["docker-swarm-mngmt-tcp", "docker-swarm-node-tcp", "docker-swarm-node-udp", "docker-swarm-overlay-udp"]
 }
 
 variable "auto_ingress_with_self" {
