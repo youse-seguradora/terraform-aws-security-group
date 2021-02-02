@@ -6,7 +6,7 @@
 variable "auto_ingress_rules" {
   description = "List of ingress rules to add automatically"
   type        = list(string)
-  default     = ["alertmanager-9093-tcp", "alertmanager-9094-tcp"]
+  default     = ["http-80-tcp", "http-8080-tcp", "https-443-tcp", "web-jmx-tcp"]
 }
 
 variable "auto_ingress_with_self" {

@@ -13,6 +13,7 @@ List of Security Groups implemented as Terraform modules
 * [graphite-statsd](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/graphite-statsd)
 * [http-80](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/http-80)
 * [http-8080](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/http-8080)
+* [https-19999](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/https-19999)
 * [https-443](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/https-443)
 * [https-8443](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/https-8443)
 * [ipsec-4500](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/modules/ipsec-4500)

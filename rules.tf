@@ -63,11 +63,11 @@ variable "rules" {
     # HTTP
     http-80-tcp   = [80, 80, "tcp", "HTTP"]
     http-8080-tcp = [8080, 8080, "tcp", "HTTP"]
-    # HTTPS Looker
-    http-19999-tcp = [19999, 19999, "tcp", "HTTP"]
     # HTTPS
     https-443-tcp  = [443, 443, "tcp", "HTTPS"]
     https-8443-tcp = [8443, 8443, "tcp", "HTTPS"]
+    # HTTPS Looker
+    https-19999-tcp = [19999, 19999, "tcp", "HTTP"]
     # IPSEC
     ipsec-500-udp  = [500, 500, "udp", "IPSEC ISAKMP"]
     ipsec-4500-udp = [4500, 4500, "udp", "IPSEC NAT-T"]
@@ -243,6 +243,11 @@ variable "auto_groups" {
     }
     https-8443 = {
       ingress_rules     = ["https-8443-tcp"]
+      ingress_with_self = ["all-all"]
+      egress_rules      = ["all-all"]
+    }
+    https-19999 = {
+      ingress_rules     = ["https-19999-tcp"]
       ingress_with_self = ["all-all"]
       egress_rules      = ["all-all"]
     }

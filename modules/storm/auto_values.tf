@@ -6,7 +6,7 @@
 variable "auto_ingress_rules" {
   description = "List of ingress rules to add automatically"
   type        = list(string)
-  default     = ["alertmanager-9093-tcp", "alertmanager-9094-tcp"]
+  default     = ["storm-nimbus-tcp", "storm-ui-tcp", "storm-supervisor-tcp"]
 }
 
 variable "auto_ingress_with_self" {
